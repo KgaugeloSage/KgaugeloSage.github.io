@@ -1,0 +1,148 @@
+.clpic{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+}
+
+.clpic img{
+width: 500px;
+height: 750px;
+}
+
+body{
+width: 100%;
+height: 100%;
+background: url(img/background.jpg) no-repeat center fixed;
+background-size: cover;
+}
+
+
+.home-pic{
+font-family: 'Courier New', Courier, monospace;
+color: #fff;
+font-size: 20px;
+float: left;
+padding: 5px;
+display: flex;
+align-items: center;
+}
+
+.about-me{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+color: #fff;
+}
+
+.skills{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+.portfolio{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+.contact{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+.analytical{
+float: left;
+padding: 5px;
+display: flex;
+align-items: center;
+}
+
+.analytical::after{
+content: "";
+clear: both;
+display: table;
+}
+
+.pub-poet {
+float: left;
+padding: 5px;
+display: flex;
+align-items: center;
+}
+
+.pub-poet::after{
+content: "";
+clear: both;
+display: table;
+}
+
+.home::after{
+content: "";
+clear: both;
+display: table;
+}
+#homepic{
+border-radius: 50%;
+}
+#anapic{
+border-radius: 50%;
+}
+#pubpic{
+border-radius: 50%;
+}
+
+/* The side navigation menu */
+.sidenav {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    right: 0;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: url(img/background.jpg) no-repeat center fixed;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media screen and (max-width: 450px){
+    .home-pic{
+      margin: 0 0 0 auto;
+      font-size: 15px;
+}
+  }
