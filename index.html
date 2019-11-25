@@ -5,14 +5,14 @@
 </head>
 <body>
     <!--Navigation-->
-<div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#about-me">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-</div>
-<span style="font-size:30px;cursor:pointer;float: right;" onclick="openNav()" ><img src="img/ham.png" style="width: 100%;" alt=""></span>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about" onclick="closeNav()">About Me</a>
+        <a href="#skills" onclick="closeNav()">Skills</a>
+        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer;float: right;" onclick="openNav()" ><img src="img/ham.png" style="width: 100%;" alt=""></span>
 <div id="main">
 <div class="home">
     <div class="home-pic">
@@ -21,7 +21,7 @@
         <h1>KGAUGELO CLIFORT RAMARAMELA</h1>
     </div>
 </div>
-<div class="about-me">
+<div class="about-me" id="about">
     <h1>About Me</h1>
     <p>I am Kgaugelo Ramaramela, a Mobile and Web Developer Learner at Standard Bank. My eternal passsion is being in the forefront of the 4th industrail revolution and creating technology that will help humankind for the better. The is a dream I will persue.</p>
     <h2>Origin</h2>
@@ -32,7 +32,7 @@
 	<p>"I am a God" Me</p>
 	<p>"Talent wins games, but teamwork and intelligence wins championships" Unknown</p>
 </div>
-<div class="skills">
+<div class="skills" id="skills">
     <h1>Skills</h1>
 	<div class="analytical">
 		<img id="anapic" src="img/anapic.jpg" alt="" style="width: 50%">
@@ -52,13 +52,13 @@
     </div>
     <div class="designer">
         <h2>Clothing Brand Designer</h2>
-        <p>I am a Designer for two brands that are our by me and my 3 friends, click <a href="https://www.facebook.com/Notorious-Brand-SA-237675526908970">HERE</a> to go to our Facebook page to see</p>
+        <p>I am a Designer for two brands that are owned by me and 3 of my friends, click <a href="https://www.facebook.com/Notorious-Brand-SA-237675526908970">HERE</a> to go to our Facebook page and see</p>
     </div>
 </div>
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
     <h1>Portfolio</h1>
     <div class="business">
-        <h2>I have clothing I have been running for a couple of months</h2>
+        <h2>I have a clothing brand that I have been running for a couple of months</h2>
         <div class="clpic">
             <img src="img/clp2.jpg" alt="">
             <img src="img/clp3.jpg" alt="">
@@ -68,7 +68,7 @@
     </div>
 
 </div>
-<div class="contact">
+<div class="contact" id="contact">
     <h1>Contacts</h1>
     <div class="email-cell">
         <h2>Email</h2>
@@ -80,7 +80,7 @@
         <a href="https://www.instagram.com/crewnotorious/?hl=en"><img src="img/inst.jpg" style="width: 10%;" alt=""></a>
         <a href="https://wa.me/27815385133"><img src="img/whapp.png" style="width: 10%;" alt=""></a>
     </div>
-<footer>SageKay &copy</footer>
+<footer>SageKay &copy 2019 </footer>
 </div>  
 </div>
 <script src="main.js"></script>
